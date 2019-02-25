@@ -270,7 +270,8 @@ main{
     flex-direction: column;
     width: 0%;
     height: 100vh;
-    background:url(../Img/skill_bg.jpg) no-repeat bottom center;
+    background: #fafafa;
+    /* background:url(../Img/skill_bg.jpg) no-repeat bottom center; */
     background-attachment: fixed;
     transition: 1s;
     background-size: cover;

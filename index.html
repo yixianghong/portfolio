@@ -20,25 +20,25 @@
 <body>
     <div id="top"></div>
     <header>
-        <nav class="justify-content-between">
-            <div class="d-flex flex-column">
-                <ul class="d-flex nav flex-column animated bounceInDown">
-                    <li><a class="about_url" href="#nav">ABOUT</a></li>
-                    <li><a class="skill_url" href="#skill">MY SKILL</a></li>
-                    <li><a class="work_url" href="#work">WORK</a></li>
-                    <li><a class="contact_url" href="#contact">CONTACT</a></li>
-                </ul>
-                <ul class="d-flex flex-column social animated bounceInDown">
+        <nav>
+            <div class="menu">
+
+                <!-- <ul class="d-flex flex-column social animated bounceInDown">
                     <li><a href="https://www.facebook.com/aaa10010134"><i class="icon fab fa-facebook-square"></i></a>
                     </li>
                     <li><a href="https://www.instagram.com/jason10010134/"><i class="icon fab fa-instagram"></i></a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
-            <div class="open_menu"><i class="fas fa-caret-right"></i></div>
         </nav>
-
     </header>
+    <ul class="nav flex-column">
+        <li><a class="about_url" href="#nav">ABOUT</a></li>
+        <li><a class="skill_url" href="#skill">MY SKILL</a></li>
+        <li><a class="work_url" href="#work">WORK</a></li>
+        <li><a class="contact_url" href="#contact">CONTACT</a></li>
+    </ul>
+
     <main>
         <div id="nav"></div>
         <div class="container content d-flex justify-content-between animated">
@@ -58,17 +58,27 @@
                 </div>
             </div>
         </div>
-        <div class="scroll_down goskill"><i class="fas fa-angle-down"></i></div>
+        <div class="scroll_down goskill">MY SKILL <i class="fas fa-angle-down"></i></div>
     </main>
-    
+    <hr class="line line1">
     <div class="skill_bg">
         <div id="skill" class="container">
             <!-- <div class="skill_title">MY SKILL</div> -->
             <div class="skill_bar">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-6">
-
-                        <div class="progress_title">網頁技術應用</div>
+                        <a href="https://yixianghong.github.io/mywork3/index.html" target="_blank">
+                            <div class="work_pic">
+                                <img src="./Img/homework1.png" alt="">
+                                <div class="useskill">使用技術:<br>HTML5、CSS、JS、JQUERY、RWD</div>
+                            </div>
+                            <div class="work_descrip">
+                                作品呈現 - 飯店官網
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <div class="progress_title">前端技術應用</div>
                         <div class="progress-bar">
                             <div class="progress no3" style="width: 0%;"><span class="barname">HTML5</span></div>
                             <div class="pin animated">95%</div>
@@ -102,6 +112,17 @@
                             <div class="pin animated">90%</div>
                         </div>
                     </div>
+
+                </div>
+            </div>
+            <div class="scroll_down continue"><i class="fas fa-angle-down"></i></div>
+        </div>
+    </div>
+    <hr class="line line2">
+    <div class="skill_bg">
+        <div id="skill2" class="container">
+            <div class="skill_bar">
+                <div class="row align-items-center">
                     <div class="col-6">
                         <div class="progress_title">後端技術運用</div>
                         <div class="progress-bar">
@@ -133,11 +154,23 @@
                             <div class="pin animated">80%</div>
                         </div>
                     </div>
+                    <div class="col-6">
+                        <a href="https://wavesurf.000webhostapp.com/index.php" target="_blank">
+                            <div class="work_pic">
+                                <img src="./Img/homework7.png" alt="">
+                                <div class="useskill">使用技術:<br>HTML5、CSS、JS、PHP、AJAX<br>JQUERY、RWD</div>
+                            </div>
+                            <div class="work_descrip">
+                                作品呈現 - 衝浪電商網站
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="scroll_down gowork"><i class="fas fa-angle-down"></i></div>
+            <div class="scroll_down otherwork">OTHER WORK <i class="fas fa-angle-down"></i></div>
         </div>
     </div>
+    <hr class="line line3">
     <div class="work" id="work" data-percent="">
         <div class="container">
             <div class="row homework_wrap">
@@ -165,33 +198,11 @@
                         </div>
                     </a>
                 </div>
-                <div class="homework">
-                    <a href="https://wavesurf.000webhostapp.com/index.php" target="_blank">
-                        <div class="work_pic">
-                            <img src="./Img/homework7.png" alt="">
-                            <div class="useskill">使用技術:<br>HTML5、CSS、JS、PHP、AJAX<br>JQUERY、RWD</div>
-                        </div>
-                        <div class="work_descrip">
-                            團體專題 - 衝浪電商網站
-                        </div>
-                    </a>
-                </div>
-                <div class="homework">
-                    <a href="https://yixianghong.github.io/mywork3/index.html" target="_blank">
-                        <div class="work_pic">
-                            <img src="./Img/homework1.png" alt="">
-                            <div class="useskill">使用技術:<br>HTML5、CSS、JS、JQUERY、RWD</div>
-                        </div>
-                        <div class="work_descrip">
-                            個人專題 - 飯店官網
-                        </div>
-                    </a>
-                </div>
             </div>
         </div>
-        <div class="scroll_down gocontact"><i class="fas fa-angle-down"></i></div>
+        <div class="scroll_down gocontact">CONTACT ME<i class="fas fa-angle-down"></i></div>
     </div>
-
+    <hr class="line line4">
     <div class="contact">
         <div id="contact"></div>
         <div class="container profile d-flex">
@@ -247,14 +258,16 @@
         i++
         scroll[i] = $(this).scrollTop()
         if (scroll[i] > scroll[i - 1]) {
-            $("nav").css("left","-120px")
-            $(".open_menu").css("display","flex")
         }
     })
 
-    $(".open_menu").click(function(){
+    $("nav").click(function () {
         $("nav").toggleClass("open")
-        $(".open_menu").toggleClass("rotate")
+        $(".nav").toggleClass("menu_move")
+    })
+    $(".nav a").click(function () {
+        $("nav").toggleClass("open")
+        $(".nav").toggleClass("menu_move")
     })
     // --------------------------bar
 
@@ -264,9 +277,6 @@
             var percent = $(this).siblings(".pin").text()
             $(this).css("width", percent)
             $(this).siblings(".pin").css("left", percent)
-            $("nav a").css("color", "white")
-            $(".icon").css("color", "white")
-            $("#gotop").css("color", "white")
         })
     }
 
@@ -278,17 +288,9 @@
                 var percent = $(this).siblings(".pin").text()
                 $(this).css("width", percent)
                 $(this).siblings(".pin").css("left", percent)
-                // $("nav a").css("color", "white")
-                // $(".icon").css("color", "white")
-                // $("#gotop").css("color", "white")
-                // $(".open_menu").css("color","white")
+               
             })
-        } else {
-            // $("nav a").css("color", "#000F3F")
-            // $(".icon").css("color", "#000F3F")
-            // $("#gotop").css("color", "black")
-            // $(".open_menu").css("color","#000F3F")
-        }
+        } 
     })
 
     $(".progress").mouseenter(function () {
@@ -301,35 +303,46 @@
     // --------------------------scrolldown
     $(".goskill").on("click", function () {
         var height = $("main").height()
-        $("html,body").animate({ "scrollTop": height}, 800)
+        $("html,body").animate({ "scrollTop": height }, 800)
     })
 
-    $(".gowork").on("click", function () {
+    $(".continue").on("click",function(){
         var height = $("main").height()
         var skillHeight = $("#skill").height()
-        $("html,body").animate({ "scrollTop": height + skillHeight }, 800)
+        $("html,body").animate({ "scrollTop": height + skillHeight}, 800)
     })
 
+
+    $(".otherwork").on("click", function () {
+        var height = $("main").height()
+        var skillHeight = $("#skill").height()
+        var skillHeight2 = $("#skill2").height()
+        $("html,body").animate({ "scrollTop": height + skillHeight + skillHeight }, 800)
+    })
+
+   
     $(".gocontact").on("click", function () {
         var height = $("main").height()
         var skillHeight = $("#skill").height()
         var workHeight = $(".work").height()
-        $("html,body").animate({ "scrollTop": height + skillHeight + workHeight}, 800)
+        var skillHeight2 = $("#skill2").height()
+        $("html,body").animate({ "scrollTop": height + skillHeight + workHeight + skillHeight }, 800)
     })
 
     var workHeight = $(".work").height()
     var windowHeight = $(window).height()
     var mainHeight = $("main").height()
     var skillHeight = $("#skill").height()
+    var skillHeight2 = $("#skill2").height()
     $(window).on("scroll", function () {
         var currentHeight = $(window).scrollTop()
         var currentScroll = currentHeight + windowHeight
-        var beforeHeight = mainHeight + skillHeight + 40
+        var beforeHeight = mainHeight + skillHeight + skillHeight + 40
         var countHeight = parseInt(currentScroll - beforeHeight)
         var countPercent = countHeight / workHeight
         var percent = Math.round(countPercent * 100) + "%"
         $(".work").css("width", percent)
-        if (Math.round(countPercent * 100) >= 80) {
+        if (Math.round(countPercent * 100) >= 60) {
             $(".work").css("width", "100%")
             $(".homework").css("opacity", "1")
         } else {
@@ -345,10 +358,14 @@
         $(this).children(".useskill").css("opacity", "0")
         $(this).children("img").css("transform", "scale(1)")
     })
+ 
 
     $(".mail_icon").click(function () {
         $(this).fadeOut()
         $(".contact_info").css({ "height": "550px", "visibility": "visible" })
+        setTimeout(function(){$(".contact_info").css("border","2px solid transparent")},500)
+
+        
     })
 
     $("#gotop").on("click", function (e) {
@@ -384,8 +401,46 @@
 
     $(window).on("scroll", function () {
         var scrolltop = $(this).scrollTop()
-
         console.log(scrolltop)
+        if(scrolltop <= 100){
+          $(".line1").css("left","-100%")
+        }
+        if(scrolltop >= 100){
+          $(".line1").css("left","0%")
+        }
+        if( scrolltop >= 700){
+            $(".line1").css("left","100%")
+        }
+
+        if(scrolltop <= 900){
+          $(".line2").css("left","-100%")
+        }
+        if(scrolltop >= 900){
+          $(".line2").css("left","0%")
+        }
+        if( scrolltop >= 1300){
+            $(".line2").css("left","100%")
+        }
+
+        if(scrolltop <= 1600){
+          $(".line3").css("left","-100%")
+        }
+        if(scrolltop >= 1600){
+          $(".line3").css("left","0%")
+        }
+        if( scrolltop >= 2100){
+            $(".line3").css("left","100%")
+        }
+
+        if(scrolltop <= 2300){
+          $(".line4").css("left","-100%")
+        }
+        if(scrolltop >= 2300){
+          $(".line4").css("left","0%")
+        }
+        if( scrolltop >= 2600){
+            $(".line4").css("left","100%")
+        }
     })
 </script>
 

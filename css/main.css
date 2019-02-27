@@ -463,6 +463,9 @@ main{
     .mobile_row{
         flex-direction: column;
     }
+    .mobile_row1{
+        flex-direction: column-reverse;
+    }
 
     .skill_bar{
         padding:35px 0;

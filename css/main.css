@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     color:rgb(39, 20, 7);
     background: rgb(248, 242, 235); 
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{

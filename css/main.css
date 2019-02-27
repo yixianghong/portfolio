@@ -456,9 +456,7 @@ main{
         margin: 0;
     }
 
-    nav{
-        display: none !important;
-    }
+    
     .contact_info{
         width: 340px;
     }   

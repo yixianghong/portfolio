@@ -456,7 +456,21 @@ main{
         margin: 0;
     }
 
+    .mobile_skill{
+        max-width: 80%;
+    }
+
+    .mobile_row{
+        flex-direction: column;
+    }
+
+    .skill_bar{
+        padding:35px 0;
+    }
     
+    .progress-bar{
+        margin: 25px 0;
+    }
     .contact_info{
         width: 340px;
     }   

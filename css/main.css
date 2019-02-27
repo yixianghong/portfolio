@@ -490,4 +490,8 @@ main{
     .mail_icon{
         left: 38%;
     }
+
+    .nav a:hover{
+        background: transparent;
+    }
 }

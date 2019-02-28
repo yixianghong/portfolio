@@ -23,7 +23,7 @@
         <header>
             <nav>
                 <div class="menu">
-
+                    <div class="open_icon"><i class="fas fa-angle-right"></i></div>
                     <!-- <ul class="d-flex flex-column social animated bounceInDown">
                     <li><a href="https://www.facebook.com/aaa10010134"><i class="icon fab fa-facebook-square"></i></a>
                     </li>
@@ -269,10 +269,12 @@
     $("nav").click(function () {
         $("nav").toggleClass("open")
         $(".nav").toggleClass("menu_move")
+        $(".open_icon").toggleClass("rotate")
     })
     $(".nav a").click(function () {
         $("nav").toggleClass("open")
         $(".nav").toggleClass("menu_move")
+        $(".open_icon").toggleClass("rotate")
     })
     // --------------------------bar
 

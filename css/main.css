@@ -498,7 +498,16 @@ main{
     }
     
     .progress-bar{
-        margin: 17px 0;
+        margin: 15px 0;
+        height: 20px;
+    }
+
+    .progress-bar .progress{
+        height: 20px;
+    }
+
+    .barname{
+        font-size: 10px;
     }
     .contact_info{
         width: 300px;
@@ -523,7 +532,5 @@ main{
     .nav a:hover{
         background: transparent;
     }
-    .line2{
-        display: none;
-    }
+    
 }

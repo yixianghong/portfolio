@@ -370,7 +370,7 @@
     $(".mail_icon").click(function () {
         $(this).fadeOut()
         $(".contact_info").css({ "height": "550px", "visibility": "visible" })
-        setTimeout(function () { $(".contact_info").css("border", "2px solid transparent") }, 500)
+        setTimeout(function () { $(".contact_info").css("border-bottom", "2px solid transparent") ;$(".contact_info").css("border-top", "2px solid transparent") }, 500)
 
 
     })

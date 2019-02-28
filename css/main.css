@@ -22,6 +22,11 @@ li{
     padding: 20px 0px;
 }
 
+.open_icon{
+    font-size: 30px;
+    color: rgb(248, 242, 235);
+    transition: .3s;
+}
 
 .open_menu{
     display: flex;
@@ -46,6 +51,8 @@ nav{
     z-index: 100;
     transition: .6s;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav{
@@ -422,6 +429,8 @@ main{
 
 .open{
     width: 100%; 
+    padding-right: 10px;
+    justify-content: flex-end;
 }
 
 .close1{

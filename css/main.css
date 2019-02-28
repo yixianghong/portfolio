@@ -51,8 +51,10 @@ nav{
     z-index: 100;
     transition: .6s;
     cursor: pointer;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 8px;
+
 }
 
 .nav{
@@ -430,8 +432,7 @@ main{
 
 .open{
     width: 100%; 
-    padding-right: 10px;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .close1{
@@ -471,6 +472,11 @@ main{
     }
     nav{
         width: 5%;
+        padding-left: 3px;
+    }
+
+    .open_icon{
+        font-size: 24px;
     }
     main{
         margin: 0;

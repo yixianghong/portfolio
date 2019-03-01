@@ -490,7 +490,7 @@ main{
         flex-direction: column;
     }
     .mobile_row1{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .skill_bar{
